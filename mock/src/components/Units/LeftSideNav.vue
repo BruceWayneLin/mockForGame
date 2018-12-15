@@ -197,6 +197,8 @@ export default {
     -webkit-animation: slide-in 0.3; /* Safari 4.0 - 8.0 */
     animation: slide-in 0.3;
     left: 0px;
+    position: relative;
+    z-index: 99;
   }
 
   @keyframes slide-in {

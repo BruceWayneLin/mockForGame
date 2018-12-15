@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import MapHome from './views/MapHome.vue'
+import MapHome from '@/views/MapHome.vue'
 
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
-  base: './',
+  // mode: 'history',
+  // base: process.env,
   routes: [
     {
       path: '/',
