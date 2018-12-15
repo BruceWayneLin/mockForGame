@@ -3,7 +3,7 @@
     <NavTop/>
     <Map/>
     <ToggleBtn/>
-    <!-- <Cloud/> -->
+    <Cloud/>
     <BottomNav/>
     <BlueBottom/>
   </div>

@@ -62,32 +62,32 @@ export default {
 
   @-webkit-keyframes cloudOneMove {
     from {left: -100%;}
-    to {left: 100%;}
+    to {left: 50%;}
   }
 
   @keyframes cloudOneMove {
     from {left: -100%;}
-    to {left: 100%;}
+    to {left: 50%;}
   }
 
   @-webkit-keyframes cloudTwoMove {
     from {left: -200%;}
-    to {left: 100%;}
+    to {left: 50%;}
   }
 
   @keyframes cloudTwoMove {
     from {left: -200%;}
-    to {left: 100%;}
+    to {left: 50%;}
   }
 
   @-webkit-keyframes cloudThreeMove {
     from {left: -300%;}
-    to {left: 100%;}
+    to {left: 50%;}
   }
 
   @keyframes cloudThreeMove {
     from {left: -300%;}
-    to {left: 100%;}
+    to {left: 50%;}
   }
 
   .Cloud {

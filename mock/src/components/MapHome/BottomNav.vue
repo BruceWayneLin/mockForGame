@@ -27,7 +27,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .BottomNav {
-    position: absolute;
+    position: fixed;
     bottom: 18%;
     height: 60px;
     width: 100%;

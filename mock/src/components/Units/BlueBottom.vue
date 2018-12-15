@@ -39,7 +39,7 @@ export default {
       background-image: -ms-linear-gradient( -90deg, rgb(25,19,101) 0%, rgb(25,22,63) 52%, rgb(25,25,25) 100%);
       background-image: linear-gradient( -90deg, rgb(25,19,101) 0%, rgb(25,22,63) 52%, rgb(25,25,25) 100%);
       height: 37px;
-      position: absolute;
+      position: fixed;
       bottom: 0px;
       z-index: 999;
       width: 100%;
