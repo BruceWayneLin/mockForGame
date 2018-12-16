@@ -85,8 +85,8 @@ export default {
 <style scoped lang="scss">
   .LeftSideNav {
     width: 20%;
-    background-color: white;
-    height: 100%;
+    background-color: #191639;
+    height: 9999px;
     width: 70px;
     left: -100px;
     position: relative;

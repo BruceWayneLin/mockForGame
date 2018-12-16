@@ -91,10 +91,5 @@ export default {
   }
 
   .Cloud {
-    position: absolute;
-    top: 5%;
-    z-index: 9999;
-    width: 90%;
-    height: 80%;
   }
 </style>
