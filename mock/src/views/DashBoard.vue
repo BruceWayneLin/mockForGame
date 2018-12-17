@@ -4,7 +4,11 @@
       <NavTop />
       <ToggleBtn />
       <LeftSideNav />
-      <img src="@/assets/imgs/P.jpg" alt="">
+      <Slider />
+      <Anyatic />
+      <UcoinTrade />
+      <MiddleSlider />
+      <!-- <img src="@/assets/imgs/P.jpg" alt=""> -->
     </div>
   </div>
 </template>
@@ -13,12 +17,21 @@
   import NavTop from '@/components/MapHome/NavTop.vue'
   import ToggleBtn from '@/components/Units/ToggleBtn.vue'
   import LeftSideNav from '@/components/Units/LeftSideNav.vue'
+  import Slider from '@/components/DashBoard/Slider.vue'
+  import UcoinTrade from '@/components/DashBoard/UcoinTrade.vue'
+  import Anyatic from '@/components/DashBoard/Anaytic.vue'
+  import MiddleSlider from '@/components/DashBoard/MiddleSlider.vue'
+
   export default {
     name: 'Dashboard',
     components: {
       NavTop,
       ToggleBtn,
-      LeftSideNav
+      LeftSideNav,
+      Slider,
+      UcoinTrade,
+      Anyatic,
+      MiddleSlider
     }
   }
 </script>

@@ -1,11 +1,8 @@
 <template>
     <div class="slider">
-        <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
+        <carousel :per-page="1" :mouse-drag="false">
             <slide>
-            Slide 1 Content
-            </slide>
-            <slide>
-            Slide 2 Content
+                <img src="@/assets/imgs/banner.png" alt="" class="img-responsive">
             </slide>
         </carousel>
     </div>
@@ -25,6 +22,14 @@
 <style lang="scss" scoped>
     .slider {
         height: 150px;
+        position: absolute;
+        z-index: 999;
+        top: 120px;
+        width: 100%;
+        left: 0;
         background: white;
+        img {
+            height: 150px;
+        }
     }
 </style>

@@ -4,6 +4,7 @@
     <Map/>
     <ToggleBtn/>
     <Cloud/>
+    <Airplane/>
     <BottomNav/>
     <BlueBottom/>
   </div>
@@ -17,7 +18,7 @@ import Cloud from '@/components/MapHome/Cloud.vue'
 import BottomNav from '@/components/MapHome/BottomNav.vue'
 import ToggleBtn from '@/components/Units/ToggleBtn.vue'
 import BlueBottom from '@/components/Units/BlueBottom.vue'
-
+import Airplane from '@/components/Units/Airplane.vue'
 export default {
   name: 'MapHome',
   components: {
@@ -26,14 +27,16 @@ export default {
     Cloud,
     BottomNav,
     ToggleBtn,
-    BlueBottom
+    BlueBottom,
+    Airplane
   }
 }
 </script>
 
 <style scoped lang="scss">
   .MapHome {
-    height: 755px;
+    height: 630px;
     width: 100%;
+    overflow: hidden;
   }
 </style>

@@ -52,19 +52,21 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .NavTop {
-    height: 20%;
+    height: 120px;
+    position: relative;
+    z-index: 999;
     background-image: -moz-linear-gradient( rgb(25,19,101) 28%, rgb(29,26,67) 41%, rgb(32,32,32) 53%, rgb(25,25,25) 100%);
     background-image: -webkit-linear-gradient( rgb(25,19,101) 28%, rgb(29,26,67) 41%, rgb(32,32,32) 53%, rgb(25,25,25) 100%);
     background-image: -ms-linear-gradient( rgb(25,19,101) 28%, rgb(29,26,67) 41%, rgb(32,32,32) 53%, rgb(25,25,25) 100%);
     background-image: linear-gradient( rgb(25,19,101) 28%, rgb(29,26,67) 41%, rgb(32,32,32) 53%, rgb(25,25,25) 100%);
     .nav {
     width: 100%;
-    padding: 10px 0px;
+    padding: 12px 0px;
     display: flex;
       .navDiv {
         display: flex;
+        width: 33%;
         height: 45px;
-        width: 100%;
         img {
           display: block;
           margin: 0 auto;
@@ -72,8 +74,8 @@ export default {
         }
         #roundLeft {
           display: block;
-          height: 40px;
-          width: 40px;
+          height: 30px;
+          width: 30px;
           /* Safari 3-4, iOS 1-3.2, Android 1.6- */
           -webkit-border-radius: 50%; 
           /* Firefox 1-3.6 */
@@ -90,7 +92,7 @@ export default {
           margin-left: 5%;
           #icon {
             display: block;
-            height: 25px;
+            height: 15px;
             margin: 7px auto;
             color: white;
           }
@@ -98,8 +100,8 @@ export default {
 
         #roundRight {
           display: block;
-          height: 40px;
-          width: 40px;
+          height: 30px;
+          width: 30px;
           /* Safari 3-4, iOS 1-3.2, Android 1.6- */
           -webkit-border-radius: 50%; 
           /* Firefox 1-3.6 */
@@ -117,9 +119,10 @@ export default {
         }
       }
       #icon {
-        width: 30px;
-        height: 30px;
-        margin: 5px auto;
+        width: 25px;
+        height: 25px;
+        margin: auto;
+        margin-top: 2px;
       }
     }
   }

@@ -85,15 +85,15 @@ export default {
 <style scoped lang="scss">
   .LeftSideNav {
     width: 20%;
-    background-color: #191639;
-    height: 9999px;
+    background-color: #1c3644;
+    height: 1050px;
     width: 70px;
     left: -100px;
-    position: relative;
+    position: absolute;
     .sideNav {
       div {
         display: flex;
-        background-color: #191738;
+        background-color: #1c3644;
         height: 70px;
         width: 70px;
         #img {
@@ -197,8 +197,8 @@ export default {
     -webkit-animation: slide-in 0.3; /* Safari 4.0 - 8.0 */
     animation: slide-in 0.3;
     left: 0px;
-    position: relative;
-    z-index: 99;
+    position: absolute;
+    z-index: 9999;
   }
 
   @keyframes slide-in {
