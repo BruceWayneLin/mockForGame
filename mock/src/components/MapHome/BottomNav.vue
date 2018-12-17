@@ -28,7 +28,7 @@ export default {
 <style scoped lang="scss">
   .BottomNav {
     position: fixed;
-    bottom: 18%;
+    bottom: 23%;
     height: 60px;
     width: 100%;
     z-index: 999;
