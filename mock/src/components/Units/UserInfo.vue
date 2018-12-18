@@ -45,7 +45,17 @@ export default {
   components: {
   },
   methods: {
-    
+    backgroundpx() {
+      console.log(document.body.scrollTop);
+    }
+  },
+  computed: {
+    detect() {
+      
+    }
+  },
+  mounted() {
+   
   }
 }
 </script>
@@ -73,7 +83,7 @@ export default {
     .centerDiv {
       display: block;
       margin:auto;
-      margin-top: 20px;
+      margin-top: 25px;
     }
     #avatar {
       background: url('~@/assets/userInfo/user_bg.png');

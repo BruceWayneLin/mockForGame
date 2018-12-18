@@ -52,16 +52,18 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .NavTop {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
     height: 120px;
-    position: relative;
-    z-index: 999;
     background-image: -moz-linear-gradient( rgb(25,19,101) 28%, rgb(29,26,67) 41%, rgb(32,32,32) 53%, rgb(25,25,25) 100%);
     background-image: -webkit-linear-gradient( rgb(25,19,101) 28%, rgb(29,26,67) 41%, rgb(32,32,32) 53%, rgb(25,25,25) 100%);
     background-image: -ms-linear-gradient( rgb(25,19,101) 28%, rgb(29,26,67) 41%, rgb(32,32,32) 53%, rgb(25,25,25) 100%);
     background-image: linear-gradient( rgb(25,19,101) 28%, rgb(29,26,67) 41%, rgb(32,32,32) 53%, rgb(25,25,25) 100%);
     .nav {
     width: 100%;
-    padding: 12px 0px;
+    padding-top: 3px;
+    padding-bottom: 23px;
     display: flex;
       .navDiv {
         display: flex;
@@ -74,8 +76,8 @@ export default {
         }
         #roundLeft {
           display: block;
-          height: 30px;
-          width: 30px;
+          height: 40px;
+          width: 40px;
           /* Safari 3-4, iOS 1-3.2, Android 1.6- */
           -webkit-border-radius: 50%; 
           /* Firefox 1-3.6 */
@@ -92,16 +94,16 @@ export default {
           margin-left: 5%;
           #icon {
             display: block;
-            height: 18px;
-            margin: 6px auto;
+            height: 20px;
+            margin: 10px auto;
             color: white;
           }
         }
 
         #roundRight {
           display: block;
-          height: 30px;
-          width: 30px;
+          height: 40px;
+          width: 40px;
           /* Safari 3-4, iOS 1-3.2, Android 1.6- */
           -webkit-border-radius: 50%; 
           /* Firefox 1-3.6 */
@@ -119,10 +121,10 @@ export default {
         }
       }
       #icon {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
         margin: auto;
-        margin-top: 2px;
+        margin-top: 4px;
       }
     }
   }

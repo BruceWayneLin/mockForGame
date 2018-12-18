@@ -1,5 +1,5 @@
 <template>
-  <div class="LeftSideNav" :class="{'slide-in': openNavOrNot}">
+  <div class="LeftSideNav" :class="{'slide-in': openNavOrNot}" v-hammer:swipe.left="onSwipeLeft">
       <div class="sideNav">
       <div class="div1">
         <span>
@@ -68,6 +68,9 @@ export default {
   components: {
   },
   methods: {
+    onSwipeLeft(){
+      this.$store.commit('OpenNav')
+    },
   },
   computed: {
     openNavOrNot() {
@@ -82,13 +85,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .LeftSideNav {
+    top: 120px;
     width: 20%;
     background-color: #1c3644;
-    min-height: 1060px;
     height: 100%;
     width: 70px;
-    left: -100px;
-    position: absolute;
+    position: fixed;
+    left: -999px;
     .sideNav {
       div {
         display: flex;

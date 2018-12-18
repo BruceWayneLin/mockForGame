@@ -42,7 +42,6 @@
 <style lang="scss" scoped>
     .UcoinTrade {
         background-color: #191738;
-        height: 365px;
         position: relative;
         top: 0px;
         padding: 0 15px;
@@ -112,7 +111,7 @@
             -moz-box-shadow: inset 0px 0px 25px 0px #4FA9B1;
             -o-box-shadow: inset 0px 0px 25px 0px #4FA9B1;
             position: relative;
-            top: 175px;
+            top: 30px;
             width: 100%;
             height: 100px;
             .text {
@@ -138,8 +137,7 @@
             }
         }
         #btnArea {
-            position: relative;
-            top: 200px;
+            margin-top: 50px;
             img {
                 height: 25px;
                 width: 25px;

@@ -14,12 +14,10 @@
 
 <style lang="scss" scoped>
     .Anaytic {
-        position: relative;
-        top: 175px;
-        z-index: 99;
+        margin-top: 150px;
         .chart {
             background: url('~@/assets/imgs/chart.jpg');
-            background-size: contain;
+            background-size: cover;
             height: 175px;
             width: 100%;
             background-repeat: no-repeat;

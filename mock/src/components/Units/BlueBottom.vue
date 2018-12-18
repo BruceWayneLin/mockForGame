@@ -48,6 +48,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .BlueBottom {
+    position: relative;
     .Bottom {
       display: flex;
       background-image: -moz-linear-gradient( 0deg, rgb(25,19,101) 0%, rgb(25,22,63) 52%, rgb(25,25,25) 100%);
@@ -62,6 +63,7 @@ export default {
       div {
         display: flex;
         width: 50%;
+        height: 60px;
         color: white;
         span {
           text-align: center;

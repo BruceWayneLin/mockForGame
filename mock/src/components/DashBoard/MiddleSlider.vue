@@ -4,7 +4,7 @@
             <h2><span>最新上線遊戲</span></h2>
             <div class="row">
                 <div class="slider">
-                    <carousel :per-page="2" :mouse-drag="false" :autoplay="false" speed="300" loop="true" paginationSize="0px">
+                    <carousel :per-page="2" :mouse-drag="false" :autoplay="false" :speed="300" :loop="true" :paginationSize="0">
                         <slide>
                             <img style="margin-left:15%;" src="@/assets/icons/5pk.png" alt="" class="img-responsive">
                         </slide>
