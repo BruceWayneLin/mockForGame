@@ -1,6 +1,6 @@
 <template>
   <div class="BlueBottom">
-    <div class="Bottom">
+    <div class="Bottom" :style="{'width': width, 'font-size': fontSize, 'margin-left': marginLeft}">
       <div>
         <span>
           ULG 官網
@@ -19,12 +19,26 @@
 
 export default {
   name: 'BlueBottom',
+  data() {
+    return {
+      width: '',
+      fontSize: '',
+      marginLeft: ''
+    }
+  },
   props: {
   },
   components: {
   },
   methods: {
     
+  },
+  mounted() {
+    if (this.$route.path == '/DashBoard') {
+      this.width = `${200}px`;
+      this.fontSize = '12px';
+      this.marginLeft = '20%'
+    }
   }
 }
 </script>
@@ -39,7 +53,7 @@ export default {
       background-image: -ms-linear-gradient( -90deg, rgb(25,19,101) 0%, rgb(25,22,63) 52%, rgb(25,25,25) 100%);
       background-image: linear-gradient( -90deg, rgb(25,19,101) 0%, rgb(25,22,63) 52%, rgb(25,25,25) 100%);
       height: 37px;
-      position: absolute;
+      position: fixed;
       bottom: 0px;
       z-index: 999;
       width: 100%;

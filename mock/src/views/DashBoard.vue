@@ -9,6 +9,8 @@
       <UcoinTrade />
       <MiddleSlider />
       <News/>
+      <twoBtn/>
+      <BlueBottom/>
       <!-- <img src="@/assets/imgs/P.jpg" alt=""> -->
     </div>
   </div>
@@ -23,7 +25,8 @@
   import Anyatic from '@/components/DashBoard/Anaytic.vue'
   import MiddleSlider from '@/components/DashBoard/MiddleSlider.vue'
   import News from '@/components/DashBoard/News.vue'
-
+  import twoBtn from '@/components/DashBoard/twoBtn.vue'
+  import BlueBottom from '@/components/Units/BlueBottom.vue'
 
   export default {
     name: 'Dashboard',
@@ -35,7 +38,9 @@
       UcoinTrade,
       Anyatic,
       MiddleSlider,
-      News
+      News,
+      twoBtn,
+      BlueBottom
     }
   }
 </script>

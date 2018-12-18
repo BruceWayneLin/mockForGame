@@ -29,7 +29,7 @@
         left: 0;
         background: white;
         img {
-            height: 150px;
+            height: 37%;
         }
     }
 </style>
