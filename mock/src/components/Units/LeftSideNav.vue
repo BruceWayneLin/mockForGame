@@ -43,8 +43,6 @@
           帳戶
         </span>
       </div>
-      <div></div>
-      <div></div>
       <div class="div7">
         <span>
           <div id="img" class="img7" src="@/assets/icons/navibarIcons/btn-1-n.png" alt="">
@@ -86,7 +84,8 @@ export default {
   .LeftSideNav {
     width: 20%;
     background-color: #1c3644;
-    height: 1050px;
+    min-height: 1060px;
+    height: 100%;
     width: 70px;
     left: -100px;
     position: absolute;

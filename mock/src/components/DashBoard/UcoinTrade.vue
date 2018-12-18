@@ -7,7 +7,9 @@
                         <img src="@/assets/icons/U.png" alt="">
                     </div>
                     <span class="text">商城娛樂幣餘額</span>
-                    <span></span>
+                    <span>
+                        <img class="number" src="@/assets/imgs/number.png" alt="">
+                    </span>
                 </div>
             </div>
         </div>
@@ -43,13 +45,18 @@
         height: 365px;
         position: relative;
         top: 0px;
+        padding: 0 15px;
+        .number {
+            max-height: 30px;
+            position: relative;
+            top: 10px;
+        }
         .container {   
             .buy {
                 height: 60px;
-                background-color: brown;
                 color: white;
                 font-size: 16px;
-                font-weight: 800;
+                font-weight: 100;
                 text-align: center;
                 padding-top: 15px;
                 /* Safari 3-4, iOS 1-3.2, Android 1.6- */
@@ -73,7 +80,7 @@
                 height: 60px;
                 color: white;
                 font-size: 16px;
-                font-weight: 800;
+                font-weight: 100;
                 text-align: center;
                 padding-top: 15px;
                 /* Safari 3-4, iOS 1-3.2, Android 1.6- */
@@ -96,7 +103,14 @@
             }
         }
         .total {
-            border: 1px solid #4fa9b1;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(79, 169, 177);
+            border-radius: 10px;
+            box-shadow: inset 0px 0px 25px 0px #4FA9B1;
+            -webkit-box-shadow: inset 0px 0px 25px 0px #4FA9B1;
+            -moz-box-shadow: inset 0px 0px 25px 0px #4FA9B1;
+            -o-box-shadow: inset 0px 0px 25px 0px #4FA9B1;
             position: relative;
             top: 175px;
             width: 100%;
@@ -120,7 +134,7 @@
                 display: block;
                 margin: auto;
                 height: 60px;
-                margin-top: 15%;
+                margin-top: 20px;
             }
         }
         #btnArea {

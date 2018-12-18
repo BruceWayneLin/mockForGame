@@ -39,7 +39,7 @@ export default {
     z-index: 9998;
     width: 50%;
     height: auto;
-    top: 380px;
+    top: 130px;
     -webkit-animation: cloudOneMove 55s infinite; /* Safari 4.0 - 8.0 */
     animation: cloudOneMove 55s infinite;
     animation-duration: -3s;
@@ -61,32 +61,32 @@ export default {
   }
 
   @-webkit-keyframes cloudOneMove {
-    from {left: -100%;}
+    from {left: 0;}
     to {left: 50%;}
   }
 
   @keyframes cloudOneMove {
-    from {left: -100%;}
+    from {left: 0;}
     to {left: 50%;}
   }
 
   @-webkit-keyframes cloudTwoMove {
-    from {left: -200%;}
+    from {left: 0;}
     to {left: 50%;}
   }
 
   @keyframes cloudTwoMove {
-    from {left: -200%;}
+    from {left: 0;}
     to {left: 50%;}
   }
 
   @-webkit-keyframes cloudThreeMove {
-    from {left: -300%;}
+    from {left: 0;}
     to {left: 50%;}
   }
 
   @keyframes cloudThreeMove {
-    from {left: -300%;}
+    from {left: 0;}
     to {left: 50%;}
   }
 

@@ -43,23 +43,23 @@ export default {
       background: url('~@/assets/imgs/airplane.png');
       background-size: contain;
       background-repeat: no-repeat;
-      height: 400px;
-      width: 260px;
+      height: 200px;
+      width: 300px;
       position: absolute;
       z-index: 400;
       top: 35vh;
-      display: none;
+      left: -130px;
+    
     }
     .plane.flyPlane {
       -webkit-animation: fly 5s infinite; /* Safari 4.0 - 8.0 */
       animation: fly 5s infinite;
-      display: initial;
     }
   }
   
   @keyframes fly {
     0% {
-        transform: translate(-100px, -100px);
+        transform: translate(-100px, 100px);
     }
     100% {
         transform: translate(1024px, -1024px);
@@ -67,7 +67,7 @@ export default {
   }
   @-webkit-keyframes fly {
     0% {
-        transform: translate(-100px, -100px);
+        transform: translate(-100px, 100px);
     }
     100% {
         transform: translate(1024px, -1024px);

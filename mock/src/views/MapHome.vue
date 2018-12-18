@@ -35,7 +35,7 @@ export default {
 
 <style scoped lang="scss">
   .MapHome {
-    height: 630px;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
   }

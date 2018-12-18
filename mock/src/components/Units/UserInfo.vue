@@ -3,24 +3,31 @@
     <div class="container">
       <div class="row">
         <div id="avatar" class="col-6">
+          <img class="avatar_icon" src="@/assets/userInfo/user_icon.png" alt="">
+          <img class="level_icon" src="@/assets/userInfo/level_09.png" alt="">
+          <div>
+            <img class="diamon_icon" src="@/assets/userInfo/card.png" alt="">
+            <span class="daimon_title">鑽卡</span>
+          </div>
+          <p class="title">妖嬌Ａ三蘆小辣椒</p>
         </div>
         <div class="col-3">
           <div class="centerDiv">
             <div class="gold-coin">
-              <span>99999</span>
+              <span>999,999,999</span>
             </div>
             <div class="bonus">
-              <span>99999</span>
+              <span>999,999,999</span>
             </div>
           </div>
         </div>
         <div class="col-3">
           <div class="centerDiv">
             <div class="entertain-coin">
-                <span>99999</span>
+                <span>999,999,999</span>
             </div>
             <div class="gift-coin">
-                <span>99999</span>
+                <span>999,999,999</span>
             </div>
           </div>
         </div>
@@ -47,7 +54,7 @@ export default {
 <style scoped lang="scss">
   .UserInfo {
     position:relative;
-    top: -24px;
+    top: -30px;
     .col-3, .col-4 {
       padding: 0px;
     }
@@ -73,6 +80,26 @@ export default {
       background-size: contain;
       background-repeat: no-repeat;
       height: 80px;
+      .avatar_icon {
+        height: 65px;
+        position: relative;
+        top: 6px;
+        left: -7px;
+      }
+      .level_icon {
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        left: 74px;
+      }
+      .title {
+        color: white;
+        font-size: 12px;
+        font-weight: 100;
+        position: relative;
+        top: -43px;
+        left: 58px;
+      }
     }
     .gold-coin {
       background: url('~@/assets/userInfo/coin_bg_01.png');
@@ -97,6 +124,26 @@ export default {
       background-size: contain;
       background-repeat: no-repeat;
       height: 30px;
+    }
+    .diamon_icon {
+      height: 15px;
+      position: relative;
+      left: 95px;
+      top: -56px;
+    }
+    .daimon_title {
+      position: relative;
+      left: 100px;
+      font-size: 14px;
+      color: white;
+      font-weight: 100;
+      top: -55px;
+      text-shadow:
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+
     }
   }
 </style>

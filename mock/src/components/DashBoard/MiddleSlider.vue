@@ -4,24 +4,27 @@
             <h2><span>最新上線遊戲</span></h2>
             <div class="row">
                 <div class="slider">
-                    <carousel :per-page="3" :mouse-drag="false" :autoplay="true" speed="300" loop="true" paginationSize="0px">
+                    <carousel :per-page="2" :mouse-drag="false" :autoplay="false" speed="300" loop="true" paginationSize="0px">
                         <slide>
-                            <img src="@/assets/icons/5pk.png" alt="" class="img-responsive">
+                            <img style="margin-left:15%;" src="@/assets/icons/5pk.png" alt="" class="img-responsive">
                         </slide>
                         <slide>
                             <img src="@/assets/icons/routelette.png" alt="" class="img-responsive">
                         </slide>
                         <slide>
-                            <img src="@/assets/icons/routelette.png" alt="" class="img-responsive">
+                            <img style="margin-left:15%;" src="@/assets/icons/routelette.png" alt="" class="img-responsive">
                         </slide>
                         <slide>
                             <img src="@/assets/icons/routelette.png" alt="" class="img-responsive">
                         </slide>
                         <slide>
-                            <img src="@/assets/icons/routelette.png" alt="" class="img-responsive">
+                            <img style="margin-left:15%;" src="@/assets/icons/routelette.png" alt="" class="img-responsive">
                         </slide>
                         <slide>
                             <img src="@/assets/icons/routelette.png" alt="" class="img-responsive">
+                        </slide>
+                        <slide>
+                            <img style="margin-left:15%;" src="@/assets/icons/routelette.png" alt="" class="img-responsive">
                         </slide>
                         <slide>
                             <img src="@/assets/icons/routelette.png" alt="" class="img-responsive">
@@ -75,8 +78,7 @@
         .slider {
             position: relative;
             top: 28px;
-            max-width: 345px;
-            padding: 0 5%;
+            max-width: 100%;
         }
     }
 </style>

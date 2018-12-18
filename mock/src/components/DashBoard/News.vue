@@ -4,15 +4,15 @@
             <div class="title">
                 <h2>最新消息</h2>
             </div>
-            <div>
+            <div class="newsItem">
                 <h3>網站即將上線</h3>
                 <p>2018/10/18</p>
             </div>
-            <div>
+            <div class="newsItem">
                 <h3>網站即將上線</h3>
                 <p>2018/11/18</p>
             </div>
-            <div>
+            <div class="newsItem">
                 <h3>網站即將上線</h3>
                 <p>2018/12/18</p>
             </div>
@@ -29,7 +29,12 @@
 
 <style lang="scss" scoped>
     .News {
+        background: url('~@/assets/imgs/bg.png');
+        background-size: contain;
+        width: 100%;
        .content {
+            background-color: #191639;
+            margin: 10px;
             /* Safari 3-4, iOS 1-3.2, Android 1.6- */
             -webkit-border-radius: 12px; 
             /* Firefox 1-3.6 */
@@ -37,10 +42,27 @@
             /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
             border-radius: 12px; 
             letter-spacing: 1px;
-            border: 1px solid white;
             text-align: center;
+            .title {
+                background-color: #4482bc;
+                padding-top: 10px;
+                /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+                -webkit-border-radius: 12px 12px 0px 0px; 
+                /* Firefox 1-3.6 */
+                -moz-border-radius: 12px 12px 0px 0px; 
+                /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+                border-radius: 12px 12px 0px 0px; 
+            }
+            .newsItem {
+                margin: 7px 0px;
+                h3 {
+                    font-size: 1rem;
+                    font-weight: 300;
+                }
+            }
             div {
                 padding: 0px 15px;
+                height: 40px;
                 h3 {
                     color: white;
                     font-size: 0.8rem;
@@ -51,7 +73,7 @@
                 p {
                     color: white;
                     font-size: 12px;
-                    font-weight: 600;
+                    font-weight: 100;
                     text-align: left;
                 }
             }

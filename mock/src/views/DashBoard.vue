@@ -7,10 +7,12 @@
       <Slider />
       <Anyatic />
       <UcoinTrade />
-      <MiddleSlider />
-      <News/>
-      <twoBtn/>
-      <BlueBottom/>
+      <div class="specBak">
+        <MiddleSlider />
+        <News/>
+        <twoBtn/>
+        <BlueBottom/>
+      </div>
       <!-- <img src="@/assets/imgs/P.jpg" alt=""> -->
     </div>
   </div>
@@ -50,7 +52,13 @@
     background-color: #191639;
     height: 100%;
     width: 100%;
+    .specBak {
+      background: url('~@/assets/imgs/bg.png');
+      background-size: contain;
+      width: 100%;
+    }
     .container {
+      padding: 0px;
       img {
         position: absolute;
         top: 150px;

@@ -92,8 +92,8 @@ export default {
           margin-left: 5%;
           #icon {
             display: block;
-            height: 15px;
-            margin: 7px auto;
+            height: 18px;
+            margin: 6px auto;
             color: white;
           }
         }
