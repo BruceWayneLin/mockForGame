@@ -27,7 +27,7 @@
         width: 100%;
         margin-top: 30px;
         .btnOne {
-            background: url('~@/assets/icons/navibarIcons/announce.png');
+            background: url('~@/assets/icons/navibarIcons/btn-01.png');
             background-size: contain;
             background-repeat: no-repeat;
             width: 80px;

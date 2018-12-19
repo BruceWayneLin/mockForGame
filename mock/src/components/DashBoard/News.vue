@@ -13,8 +13,13 @@
                 <p>2018/11/18</p>
             </div>
             <div class="newsItem">
-                <h3>網站即將上線</h3>
-                <p>2018/12/18</p>
+                <div class="lastNews">
+                    <h3>網站即將上線</h3>
+                    <p>2018/12/18</p>
+                </div>
+                <div class="moreDiv">
+                    <img class="more" src="@/assets/icons/navibarIcons/more.png"/>
+                </div>
             </div>
         </div>
     </div>
@@ -58,6 +63,19 @@
                 h3 {
                     font-size: 1rem;
                     font-weight: 300;
+                }
+                .more {
+                    height: 3vh;
+                }
+                .moreDiv {
+                    display: inline-block;
+                    float: right;
+                    padding-right: 0px;
+                }
+                .lastNews {
+                    padding: 0px;
+                    display: inline-block;
+                    float: left;
                 }
             }
             div {

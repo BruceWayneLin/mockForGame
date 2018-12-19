@@ -96,7 +96,7 @@ export default {
     width: 20%;
     background-color: #1c3644;
     height: 100%;
-    width: 70px;
+    width: 85px;
     position: fixed;
     left: -999px;
     .sideNav {
@@ -104,7 +104,7 @@ export default {
         display: flex;
         background-color: #1c3644;
         height: 70px;
-        width: 70px;
+        width: 85px;
         #img {
           height: 30px;
           width: 30px;

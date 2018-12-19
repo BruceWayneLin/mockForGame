@@ -43,12 +43,12 @@ export default {
       background: url('~@/assets/imgs/airplane.png');
       background-size: contain;
       background-repeat: no-repeat;
-      height: 200px;
-      width: 300px;
+      height: 250px;
+      width: 200px;
       position: absolute;
       z-index: 400;
       top: 35vh;
-      left: -140px;
+      left: -180px;
     
     }
     .plane.flyPlane {

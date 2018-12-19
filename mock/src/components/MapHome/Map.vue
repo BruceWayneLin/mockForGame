@@ -1,7 +1,7 @@
 <template>
   <div class="Map" v-hammer:swipe.right="onSwipeRight">
-    <div class="pointerOne"></div>
-    <!-- <div class="pointerTwo"></div>
+    <!-- <div class="pointerOne"></div>
+    <div class="pointerTwo"></div>
     <div class="pointerThree"></div>
     <div class="pointerFour"></div>
     <div class="pointerFive"></div>
@@ -79,7 +79,8 @@ export default {
     height: 100%;
     .mapContent {
       background: url('~@/assets/imgs/map.jpg');
-      height: 615px;
+      height: 100vh;
+      max-height: 700px;
       width: 100%;
       position: relative;
       z-index: 1;
