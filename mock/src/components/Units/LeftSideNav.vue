@@ -1,5 +1,5 @@
 <template>
-  <div class="LeftSideNav" :class="{'slide-in': openNavOrNot}" v-hammer:swipe.left="onSwipeLeft">
+  <div class="LeftSideNav" :style="{'top': topDetect}" :class="{'slide-in': openNavOrNot}" v-hammer:swipe.left="onSwipeLeft">
       <div class="sideNav">
       <div class="div1">
         <span>
@@ -60,7 +60,7 @@ export default {
   name: 'LeftSideNav',
   data() {
       return {
-        isNavOpen: false
+        isNavOpen: false,
       }
   },
   props: {
@@ -75,6 +75,13 @@ export default {
   computed: {
     openNavOrNot() {
       return this.$store.state.navOpen
+    },
+    topDetect() {
+      if(this.$store.state.userInfoHide){
+        return '50px'
+      } else {
+        return ''
+      }
     }
   },
   mounted() {
@@ -138,60 +145,60 @@ export default {
       }
     }
     .div1 {
-      &:hover {
-        background-color: aqua;
-        .img1 {
-          background: url('~@/assets/icons/navibarIcons/btn-1-h.png');
-        }
-      }
+      // &:hover {
+      //   background-color: aqua;
+      //   .img1 {
+      //     background: url('~@/assets/icons/navibarIcons/btn-1-h.png');
+      //   }
+      // }
     }
     .div2 {
-      &:hover {
-        background-color: aqua;
-        .img2 {
-          background: url('~@/assets/icons/navibarIcons/btn-2-h.png');
-        }
-      }
+      // &:hover {
+      //   background-color: aqua;
+      //   .img2 {
+      //     background: url('~@/assets/icons/navibarIcons/btn-2-h.png');
+      //   }
+      // }
     }
     .div3 {
-      &:hover {
-        background-color: aqua;
-        .img3 {
-          background: url('~@/assets/icons/navibarIcons/btn-3-h.png');
-        }
-      }
+      // &:hover {
+      //   background-color: aqua;
+      //   .img3 {
+      //     background: url('~@/assets/icons/navibarIcons/btn-3-h.png');
+      //   }
+      // }
     }
     .div4 {
-      &:hover {
-        background-color: aqua;
-        .img4 {
-          background: url('~@/assets/icons/navibarIcons/btn-4-h.png');
-        }
-      }
+      // &:hover {
+      //   background-color: aqua;
+      //   .img4 {
+      //     background: url('~@/assets/icons/navibarIcons/btn-4-h.png');
+      //   }
+      // }
     }
     .div5 {
-      &:hover {
-        background-color: aqua;
-        .img5 {
-          background: url('~@/assets/icons/navibarIcons/btn-5-h.png');
-        }
-      }
+      // &:hover {
+      //   background-color: aqua;
+      //   .img5 {
+      //     background: url('~@/assets/icons/navibarIcons/btn-5-h.png');
+      //   }
+      // }
     }
     .div6 {
-      &:hover {
-        background-color: aqua;
-        .img6 {
-          background: url('~@/assets/icons/navibarIcons/btn-6-h.png');
-        }
-      }
+      // &:hover {
+      //   background-color: aqua;
+      //   .img6 {
+      //     background: url('~@/assets/icons/navibarIcons/btn-6-h.png');
+      //   }
+      // }
     }
     .div7 {
-      &:hover {
-        background-color: aqua;
-        .img7 {
-          background: url('~@/assets/icons/navibarIcons/btn-7-h.png');
-        }
-      }
+      // &:hover {
+      //   background-color: aqua;
+      //   .img7 {
+      //     background: url('~@/assets/icons/navibarIcons/btn-7-h.png');
+      //   }
+      // }
     }
   }
 
@@ -199,7 +206,7 @@ export default {
     -webkit-animation: slide-in 0.3; /* Safari 4.0 - 8.0 */
     animation: slide-in 0.3;
     left: 0px;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
   }
 

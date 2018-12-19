@@ -43,6 +43,21 @@
       News,
       twoBtn,
       BlueBottom
+    },
+    methods: {
+      getScrollTop(){
+        var bodyTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
+        if(bodyTop >= 145) {
+          this.$store.commit('slideUp', true)
+        } else {
+          this.$store.commit('slideUp', false)
+        }
+      }
+    },
+    mounted() {
+      $(window).scroll(()=>{
+        this.getScrollTop()
+      });
     }
   }
 </script>
@@ -50,8 +65,8 @@
 <style scoped lang="scss">
   .Dashboard {
     background-color: #191639;
-    height: 100%;
     width: 100%;
+    height: 100%;
     .specBak {
       background: url('~@/assets/imgs/bg.png');
       background-size: contain;

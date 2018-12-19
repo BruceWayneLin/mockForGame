@@ -33,7 +33,7 @@
 
 <style lang="scss" scoped>
     .slider {
-        top: 120px;
+        top: 115px;
         .marquee {
             color: white;
             width: 100%;

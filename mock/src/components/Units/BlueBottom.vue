@@ -55,7 +55,7 @@ export default {
       background-image: -webkit-linear-gradient( 0deg, rgb(25,19,101) 0%, rgb(25,22,63) 52%, rgb(25,25,25) 100%);
       background-image: -ms-linear-gradient( 0deg, rgb(25,19,101) 0%, rgb(25,22,63) 52%, rgb(25,25,25) 100%);
       background-image: linear-gradient( 0deg, rgb(25,19,101) 0%, rgb(25,22,63) 52%, rgb(25,25,25) 100%);
-      height: 37px;
+      height: 42px;
       bottom: 0px;
       z-index: 999;
       width: 100%;
@@ -63,7 +63,7 @@ export default {
       div {
         display: flex;
         width: 50%;
-        height: 60px;
+        height: 40px;
         color: white;
         span {
           text-align: center;

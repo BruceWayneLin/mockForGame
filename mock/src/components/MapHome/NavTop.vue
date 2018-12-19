@@ -1,5 +1,5 @@
 <template>
-  <div class="NavTop">
+  <div class="NavTop" :class="{'slideUp': slideUp}">
     <div class="nav">
       <div style="display: block;" class="navDiv">
         <div id="roundLeft" v-if="showBurger" @click="toggleNav()">
@@ -39,6 +39,11 @@ export default {
   methods: {
     toggleNav() {
       this.$store.commit('OpenNav')
+    }
+  },
+  computed: {
+    slideUp() {
+      return this.$store.state.userInfoHide
     }
   },
   mounted() {
@@ -94,7 +99,7 @@ export default {
           margin-left: 5%;
           #icon {
             display: block;
-            height: 20px;
+            height: 22px;
             margin: 10px auto;
             color: white;
           }
@@ -127,5 +132,8 @@ export default {
         margin-top: 4px;
       }
     }
+  }
+  .NavTop.slideUp {
+    height: 50px;
   }
 </style>

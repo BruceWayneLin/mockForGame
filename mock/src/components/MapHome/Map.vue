@@ -1,11 +1,12 @@
 <template>
   <div class="Map" v-hammer:swipe.right="onSwipeRight">
-    <!-- <div class="pointerOne"></div>
-    <div class="pointerTwo"></div>
+    <div class="pointerOne"></div>
+    <!-- <div class="pointerTwo"></div>
     <div class="pointerThree"></div>
     <div class="pointerFour"></div>
     <div class="pointerFive"></div>
-    <div class="pointerSix"></div> -->
+    <div class="pointerSix"></div>
+    <div class="pointerSeven"></div> -->
     <!-- <div class="filter" :style="{'background': filterBack}"></div> -->
     <div class="mapContent" :style="{ 'background-position-x': backgroundpx }" v-hammer:swipe.left="onSwipeLeft">      
     </div>
@@ -78,11 +79,12 @@ export default {
     height: 100%;
     .mapContent {
       background: url('~@/assets/imgs/map.jpg');
-      height: 100%;
+      height: 615px;
       width: 100%;
       position: relative;
       z-index: 1;
       background-size: cover;
+      top: 120px;
     }
     .filter {
       height: 70vh;
@@ -97,7 +99,7 @@ export default {
       border: 1px solid red;
     }
     .pointerOne {
-      position: fixed;
+      position: absolute;
       z-index: 999;
       left: 40%;
       top: 20%;

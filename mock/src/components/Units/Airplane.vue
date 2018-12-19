@@ -48,12 +48,12 @@ export default {
       position: absolute;
       z-index: 400;
       top: 35vh;
-      left: -130px;
+      left: -140px;
     
     }
     .plane.flyPlane {
-      -webkit-animation: fly 5s infinite; /* Safari 4.0 - 8.0 */
-      animation: fly 5s infinite;
+      -webkit-animation: fly 45s infinite; /* Safari 4.0 - 8.0 */
+      animation: fly 45s infinite;
     }
   }
   

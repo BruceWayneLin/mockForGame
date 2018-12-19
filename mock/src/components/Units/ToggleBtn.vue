@@ -49,7 +49,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .ToggleBtn {
-    position: absolute;
+    position: fixed;
     right: 0px;
     top: 0px;
     z-index: 9999;
