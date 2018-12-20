@@ -80,7 +80,6 @@ export default {
     .mapContent {
       background: url('~@/assets/imgs/map.jpg');
       height: 100vh;
-      max-height: 700px;
       width: 100%;
       position: relative;
       z-index: 1;

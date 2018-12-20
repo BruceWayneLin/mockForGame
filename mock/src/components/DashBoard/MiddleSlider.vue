@@ -1,6 +1,7 @@
 <template>
     <div class="MiddleSlider">
         <div class="container">
+            <div class="more">玩更多 ></div>
             <h2><span>最新上線遊戲</span></h2>
             <div class="row">
                 <div class="slider">
@@ -53,6 +54,15 @@
         background-size: contain;
         width: 100%;
         height: 235px;
+        .more {
+            position: absolute;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 300;
+            right: 17px;
+            padding-top: 10px;
+            letter-spacing: 1px;
+        }
         img {
             height: 150px;
             width: 150px;
@@ -66,7 +76,7 @@
             color: white;
             position: relative;
             top: 20px;
-
+            padding-top: 5px;
         }
         h2 span { 
             background:#283068; 

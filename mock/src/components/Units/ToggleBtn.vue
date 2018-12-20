@@ -1,5 +1,5 @@
 <template>
-  <div class="ToggleBtn">
+  <div class="ToggleBtn" :style="{'top': top}">
     <div @click="toToggle()">
         <img :src="bakUrl" alt="">
     </div>
@@ -12,7 +12,8 @@ export default {
   name: 'ToggleBtn',
   data() {
       return {
-          bakUrl: ''
+          bakUrl: '',
+          top: '0'
       }
   },
   props: {
@@ -40,7 +41,12 @@ export default {
         this.$router.push(path)
       }
   },
+  computed: {
+  },
   mounted() {
+      if(this.$route.path == '/DashBoard'){
+        this.top = '20%'
+      }  
       this.detectImg(this.$route.path)
   }
 }
@@ -51,7 +57,6 @@ export default {
   .ToggleBtn {
     position: fixed;
     right: 0px;
-    top: 0px;
     z-index: 9999;
       .toggleDiv {
           background-size: contain;

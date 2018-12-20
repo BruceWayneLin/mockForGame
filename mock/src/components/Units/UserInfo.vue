@@ -71,7 +71,7 @@ export default {
         margin: auto;
         display: block;
         float: right;
-        padding-right: 8px;
+        padding-right: 5px;
         padding-top: 5px;
       }
     }

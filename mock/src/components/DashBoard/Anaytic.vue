@@ -14,7 +14,7 @@
 
 <style lang="scss" scoped>
     .Anaytic {
-        margin-top: 150px;
+        margin-top: 170px;
         .chart {
             background: url('~@/assets/imgs/chart.jpg');
             background-size: cover;

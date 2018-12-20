@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="total">
                     <div>
-                        <img src="@/assets/icons/U.png" alt="">
+                        <img class="uCoin" src="@/assets/icons/U.png" alt="">
                     </div>
                     <span class="text">商城娛樂幣餘額</span>
                     <span>
@@ -143,6 +143,31 @@
                 margin-right: 15px;
                 position: relative;
                 top: -5px;
+            }
+        }
+
+        .uCoin {
+            -webkit-animation: rotate 2s linear infinite;
+            -moz-animation: rotate 2s linear infinite;
+            -ms-animation: rotate 2s linear infinite;
+            -o-animation: rotate 2s linear infinite;
+            animation: rotate 2s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                -ms-transform: rotateY(0deg);
+                -moz-transform: rotateY(0deg);
+                -webkit-transform: rotateY(0deg);
+                -o-transform: rotateY(0deg);
+                transform: rotateY(0deg);
+            }
+            to {
+                -ms-transform: rotateY(360deg);
+                -moz-transform: rotateY(360deg);
+                -webkit-transform: rotateY(360deg);
+                -o-transform: rotateY(360deg);
+                transform: rotateY(360deg);
             }
         }
     }

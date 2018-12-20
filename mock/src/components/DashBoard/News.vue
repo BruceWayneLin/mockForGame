@@ -13,6 +13,18 @@
                 <p>2018/11/18</p>
             </div>
             <div class="newsItem">
+                <h3>網站即將上線</h3>
+                <p>2018/10/18</p>
+            </div>
+            <div class="newsItem">
+                <h3>網站即將上線</h3>
+                <p>2018/11/18</p>
+            </div>
+            <div class="newsItem">
+                <h3>網站即將上線</h3>
+                <p>2018/11/18</p>
+            </div>
+            <div class="newsItem">
                 <div class="lastNews">
                     <h3>網站即將上線</h3>
                     <p>2018/12/18</p>
