@@ -65,7 +65,7 @@
                 /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
                 border-radius: 12px; 
                 letter-spacing: 1px;
-
+                margin: auto;
                 border-radius: 8px;
                 background-image: linear-gradient( 0deg, rgb(176,126,15) 0%, rgb(190,140,27) 18%, rgb(199,149,35) 30%, rgb(208,158,43) 46%, rgb(177,128,16) 64%, rgb(176,126,15) 100%);
                 background-image: -moz-linear-gradient( 0deg, rgb(176,126,15) 0%, rgb(190,140,27) 18%, rgb(199,149,35) 30%, rgb(208,158,43) 46%, rgb(177,128,16) 64%, rgb(176,126,15) 100%);
@@ -89,14 +89,13 @@
                 /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
                 border-radius: 12px; 
                 letter-spacing: 1px;
-
+                margin: auto;
                 border-radius: 8px;
                 background-image: linear-gradient( 0deg, rgb(29,79,102) 0%, rgb(41,91,113) 18%, rgb(50,100,120) 30%, rgb(58,108,127) 46%, rgb(32,82,105) 64%, rgb(29,79,102) 100%);
                 background-image: -moz-linear-gradient( 0deg, rgb(29,79,102) 0%, rgb(41,91,113) 18%, rgb(50,100,120) 30%, rgb(58,108,127) 46%, rgb(32,82,105) 64%, rgb(29,79,102) 100%);
                 background-image: -webkit-linear-gradient( 0deg, rgb(29,79,102) 0%, rgb(41,91,113) 18%, rgb(50,100,120) 30%, rgb(58,108,127) 46%, rgb(32,82,105) 64%, rgb(29,79,102) 100%);
                 background-image: -ms-linear-gradient( 0deg, rgb(29,79,102) 0%, rgb(41,91,113) 18%, rgb(50,100,120) 30%, rgb(58,108,127) 46%, rgb(32,82,105) 64%, rgb(29,79,102) 100%);
                 box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.65);
-                position: absolute;
                 width: 148px;
                 height: 50px;
             }

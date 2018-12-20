@@ -71,8 +71,8 @@ export default {
         margin: auto;
         display: block;
         float: right;
-        padding-right: 5px;
-        padding-top: 2px;
+        padding-right: 8px;
+        padding-top: 5px;
       }
     }
     .centerDiv {
